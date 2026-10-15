@@ -1,0 +1,13 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-8.1.1, pluggy-1.6.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /tests
+collecting ... collected 5 items
+
+../tests/test_outputs.py::test_single_threaded_correctness PASSED        [ 20%]
+../tests/test_outputs.py::test_multi_run_consistency PASSED              [ 40%]
+../tests/test_outputs.py::test_no_exceptions PASSED                      [ 60%]
+../tests/test_outputs.py::test_output_format PASSED                      [ 80%]
+../tests/test_outputs.py::test_specific_known_values PASSED              [100%]
+
+============================== 5 passed in 2.60s ===============================

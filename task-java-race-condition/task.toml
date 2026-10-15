@@ -1,0 +1,29 @@
+version = "2.0"
+artifacts = ["/app/output/counts.txt"]
+
+[metadata]
+author_name = "Bharath K"
+author_email = "bharath.k@rim-global.com"
+difficulty = "hard"
+category = "system-design"
+subcategories = ["concurrency", "debugging", "multithreading"]
+number_of_milestones = 0
+codebase_size = "minimal"
+languages = ["python"]
+tags = ["python", "concurrency", "race-condition", "multithreading", "threading", "vehicle-damage-detection", "thread-safety"]
+expert_time_estimate_min = 30
+junior_time_estimate_min = 60
+
+[verifier]
+timeout_sec = 180.0
+
+[agent]
+timeout_sec = 600.0
+
+[environment]
+build_timeout_sec = 600.0
+cpus = 2
+memory_mb = 4096
+storage_mb = 10240
+allow_internet = false
+dockerfile = "environment/Dockerfile"
